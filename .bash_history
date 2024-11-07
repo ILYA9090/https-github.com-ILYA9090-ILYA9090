@@ -1,17 +1,3 @@
-rm nodejs-package
-rm -rf nodejs-package
-ls
-git clone https://github.com/hexlet-boilerplates/nodejs-package.git
-ls
-cd  nodejs-package
-git status
-git add .
-git commit -m
-git commit 
-git push
-ды
-ls
-cd nodejs-package
 ls
 git push 
 make install
@@ -1998,3 +1984,17 @@ git add --all
 git bash
 git status
 git commit
+cd ..
+git push
+git add -A
+git add -A && git commit -m "Your Message"
+git push
+ls
+cd app-redux
+cd src
+code .
+make start
+git add --all
+cd..
+cd ..
+git add -A
