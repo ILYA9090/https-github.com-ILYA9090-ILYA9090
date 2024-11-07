@@ -1,0 +1,29 @@
+import React from 'react'
+import Header from '../Header/Header';
+import PostsApp from '../PostsApp';
+import PostsJson from '../PostsJson';
+import CommentsList from '../comments/CommentsList';
+import {Route,  Navigate, Routes } from "react-router-dom";
+import ErrorPath from '../ErrorPath';
+const AppRouter = () => {
+     /*
+      route работает так: в ссылке в верху страницы через слеш плюс название то есть path 
+      я указыаю на какую стрницу мне нужно перейти, но это не удобно поэтому мы используем навбар 
+      куда передаем ссылки и при клике нас перекидывает на  нужную нам страницу.
+      нижний роут отвечает за редирект на странмцу хеадер если адресс введен не корректно(вместо несуществуюзей страницы кидает в хеадер)
+      */
+  return (
+    <div>
+      <Routes>
+        <Route path="/header" element={<Header />} />
+        <Route path="/postsApp/:id" element={<PostsApp />} />
+        <Route path="/postsJson" element={<PostsJson />} />
+        <Route path="/commentsList" element={<CommentsList />} />
+        <Route path="/error" element={<ErrorPath/>}/>
+        <Route path="*" element={<Navigate to="/error" replace />} /> 
+      </Routes>
+    </div>
+  )
+}
+
+export default AppRouter

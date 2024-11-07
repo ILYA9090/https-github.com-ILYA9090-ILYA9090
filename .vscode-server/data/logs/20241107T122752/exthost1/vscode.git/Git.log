@@ -1,0 +1,31 @@
+2024-11-07 12:27:55.931 [info] [main] Log level: Info
+2024-11-07 12:27:55.931 [info] [main] Validating found git in: "git"
+2024-11-07 12:27:55.931 [info] [main] Using git "2.34.1" from "git"
+2024-11-07 12:27:55.931 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-07 12:27:55.931 [info] > git rev-parse --show-toplevel [18ms]
+2024-11-07 12:27:55.931 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-11-07 12:27:55.931 [info] [Model][openRepository] Opened repository: /home/ilya
+2024-11-07 12:27:55.931 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-07 12:27:55.931 [info] > git config --get commit.template [8ms]
+2024-11-07 12:27:55.949 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-07 12:27:55.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-07 12:27:55.975 [info] > git rev-parse --show-toplevel [19ms]
+2024-11-07 12:27:55.985 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-07 12:27:55.991 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2024-11-07 12:27:56.489 [info] > git show --textconv :app-redux/src/components/AppRouter/AppRouter.jsx [9ms]
+2024-11-07 12:27:56.489 [info] > git ls-files --stage -- /home/ilya/app-redux/src/components/AppRouter/AppRouter.jsx [7ms]
+2024-11-07 12:27:56.500 [info] > git check-ignore -v -z --stdin [6ms]
+2024-11-07 12:27:56.555 [info] > git status -z -uall [591ms] (cancelled)
+2024-11-07 12:27:56.557 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-07 12:28:28.403 [info] > git ls-files --stage -- /home/ilya/app-redux/src/components/AppRouter/AppRouter.jsx [3ms]
+2024-11-07 12:28:28.407 [info] > git cat-file -s 8ea9eb1a79a7640c9a51572f9430a7b7a08d58de [1ms]
+2024-11-07 12:28:28.416 [info] > git show --textconv :app-redux/src/components/AppRouter/AppRouter.jsx [3ms]
+2024-11-07 12:29:12.311 [info] > git ls-files --stage -- /home/ilya/app-redux/src/components/AppRouter/AppRouter.jsx [3ms]
+2024-11-07 12:29:12.314 [info] > git cat-file -s 8ea9eb1a79a7640c9a51572f9430a7b7a08d58de [1ms]
+2024-11-07 12:29:12.323 [info] > git show --textconv :app-redux/src/components/AppRouter/AppRouter.jsx [3ms]
+2024-11-07 12:29:40.727 [info] > git ls-files --stage -- /home/ilya/app-redux/src/components/AppRouter/AppRouter.jsx [6ms]
+2024-11-07 12:29:40.730 [info] > git cat-file -s 8ea9eb1a79a7640c9a51572f9430a7b7a08d58de [1ms]
+2024-11-07 12:29:40.740 [info] > git show --textconv :app-redux/src/components/AppRouter/AppRouter.jsx [5ms]
+2024-11-07 12:29:49.435 [info] > git ls-files --stage -- /home/ilya/app-redux/src/components/AppRouter/AppRouter.jsx [6ms]
+2024-11-07 12:29:49.438 [info] > git cat-file -s 8ea9eb1a79a7640c9a51572f9430a7b7a08d58de [1ms]
+2024-11-07 12:29:49.449 [info] > git show --textconv :app-redux/src/components/AppRouter/AppRouter.jsx [5ms]

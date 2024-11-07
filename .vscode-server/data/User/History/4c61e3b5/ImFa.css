@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    text-align: center;
+    width: 500px;
+}
+
+.form {
+    color: red;
+}
+
+.text {
+    color: red;
+}

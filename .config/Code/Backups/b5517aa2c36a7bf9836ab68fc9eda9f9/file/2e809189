@@ -1,0 +1,4 @@
+file:///home/ilya/frontend-project-46/read.js {"mtime":1716304414811,"ctime":1716304414811,"size":0,"etag":"3cebj2seg0","orphaned":false,"typeId":""}
+const fs = require('fs');
+const read1 = fs.readFileSync(__fixtures__/file1.json);
+const read2 = fs.readFileSync(__fixtures__/file2.json);

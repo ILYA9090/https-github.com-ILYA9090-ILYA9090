@@ -1,0 +1,13 @@
+.formComments{
+    display: flex;
+    justify-content: center;
+}
+.commentsMap {
+    display: flex;
+    justify-content: center;
+    
+}
+.comments{
+    border: 1px solid black;
+    margin: 5px;
+}

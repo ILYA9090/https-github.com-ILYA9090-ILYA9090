@@ -1,0 +1,40 @@
+2024-11-06 14:25:04.759 [info] [main] Log level: Info
+2024-11-06 14:25:04.759 [info] [main] Validating found git in: "git"
+2024-11-06 14:25:04.759 [info] [main] Using git "2.34.1" from "git"
+2024-11-06 14:25:04.759 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-06 14:25:04.759 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-06 14:25:04.759 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-06 14:25:04.759 [info] [Model][openRepository] Opened repository: /home/ilya/project
+2024-11-06 14:25:04.829 [info] > git config --get commit.template [66ms]
+2024-11-06 14:25:04.838 [info] > git rev-parse --show-toplevel [72ms]
+2024-11-06 14:25:04.858 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-06 14:25:04.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-11-06 14:25:04.866 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-06 14:25:04.869 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-06 14:25:04.882 [info] > git status -z -uall [8ms]
+2024-11-06 14:25:04.883 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-06 14:25:04.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-11-06 14:25:04.927 [info] > git config --get commit.template [25ms]
+2024-11-06 14:25:04.930 [info] > git config --local branch.master.vscode-merge-base [13ms]
+2024-11-06 14:25:04.930 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-06 14:25:04.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-11-06 14:25:04.943 [info] > git reflog master --grep-reflog=branch: Created from *. [10ms]
+2024-11-06 14:25:04.949 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-11-06 14:25:04.949 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-06 14:25:04.949 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-06 14:25:04.970 [info] > git status -z -uall [5ms]
+2024-11-06 14:25:04.971 [info] > git merge-base refs/heads/master refs/remotes/origin/master [17ms]
+2024-11-06 14:25:04.976 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-06 14:25:04.984 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2024-11-06 14:25:04.989 [info] > git diff --name-status -z --diff-filter=ADMR 540df87b1da64e5efb8953af184b879c4bcb6241...refs/remotes/origin/master [15ms]
+2024-11-06 14:25:04.991 [info] > git diff --name-status -z --diff-filter=ADMR 540df87b1da64e5efb8953af184b879c4bcb6241...refs/remotes/origin/master [2ms]
+2024-11-06 14:25:05.214 [info] > git show --textconv :src/App.js [22ms]
+2024-11-06 14:25:05.214 [info] > git ls-files --stage -- /home/ilya/project/src/App.js [16ms]
+2024-11-06 14:25:05.220 [info] > git cat-file -s 3cc28b9da6a2d4654121612a89518a69cce2bb74 [1ms]
+2024-11-06 14:25:05.335 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-06 14:25:10.079 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-06 14:25:16.591 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-06 14:25:17.173 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-06 14:25:19.413 [info] > git ls-files --stage -- /home/ilya/project/src/components/AppRouter.jsx [1ms]
+2024-11-06 14:25:19.417 [info] > git show --textconv :src/components/AppRouter.jsx [9ms]
+2024-11-06 14:25:19.418 [info] > git cat-file -s eb41f1f6a83f426dbd678b662012c456e283512d [1ms]

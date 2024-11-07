@@ -1,0 +1,11 @@
+2024-08-28 11:21:22.699 [info] Started local extension host with pid 1107.
+2024-08-28 11:21:25.864 [info] [perf] Render performance baseline is 56ms
+2024-08-28 11:21:29.069 [error] Cancelled: Canceled
+    at ee.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:792:24018)
+    at async ee.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:792:20814)
+    at async ee.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:792:17451)
+    at async X.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2477:14090)
+    at async Oe.Oc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:25245)
+    at async Oe.Xc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:28048)
+    at async Oe.uc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:14733)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:13032

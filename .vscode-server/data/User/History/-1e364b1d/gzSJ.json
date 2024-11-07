@@ -1,0 +1,5 @@
+{
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.editor.enablePreview": false
+}

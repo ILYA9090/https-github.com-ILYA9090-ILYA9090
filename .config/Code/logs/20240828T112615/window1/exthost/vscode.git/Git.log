@@ -1,0 +1,27 @@
+2024-08-28 11:26:19.231 [info] Log level: Info
+2024-08-28 11:26:19.231 [info] Validating found git in: "git"
+2024-08-28 11:26:19.231 [info] Using git "2.34.1" from "git"
+2024-08-28 11:26:19.231 [info] > git rev-parse --show-toplevel [9ms]
+2024-08-28 11:26:19.241 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-08-28 11:26:19.255 [info] Open repository: /home/ilya/react-fundamental-course
+2024-08-28 11:26:19.272 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-28 11:26:19.273 [info] > git config --get commit.template [9ms]
+2024-08-28 11:26:19.283 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-28 11:26:19.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-08-28 11:26:19.293 [warning] ENOENT: no such file or directory, open '/home/ilya/react-fundamental-course/.git/refs/remotes/origin/master'
+2024-08-28 11:26:19.294 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-28 11:26:19.299 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2024-08-28 11:26:19.336 [info] > git rev-parse --show-toplevel [36ms]
+2024-08-28 11:26:19.346 [info] > git status -z -uall [43ms]
+2024-08-28 11:26:19.388 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2024-08-28 11:26:19.398 [info] > git config --get commit.template [13ms]
+2024-08-28 11:26:19.423 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [26ms]
+2024-08-28 11:26:19.437 [info] > git diff --name-status -z --diff-filter=ADMR 06ee57871f77897baaad30adf27c093025ad407c...refs/remotes/origin/master [9ms]
+2024-08-28 11:26:19.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [64ms]
+2024-08-28 11:26:19.516 [warning] ENOENT: no such file or directory, open '/home/ilya/react-fundamental-course/.git/refs/remotes/origin/master'
+2024-08-28 11:26:19.519 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-08-28 11:26:19.530 [info] > git status -z -uall [6ms]
+2024-08-28 11:26:19.646 [info] > git show --textconv :public/index.html [18ms]
+2024-08-28 11:26:19.647 [info] > git ls-files --stage -- /home/ilya/react-fundamental-course/public/index.html [10ms]
+2024-08-28 11:26:19.654 [info] > git cat-file -s 37b238e2e709cfb68f2649b50aa94106152f55fe [3ms]
+2024-08-28 11:26:19.851 [info] > git check-ignore -v -z --stdin [2ms]

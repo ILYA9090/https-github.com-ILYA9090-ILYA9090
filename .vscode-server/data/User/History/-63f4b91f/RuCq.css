@@ -1,0 +1,10 @@
+
+.commentsForm{
+    justify-content: center;
+    display: flex; 
+}
+.commentsMap{
+    justify-content: center;
+    margin: 50px;
+    display: flex;
+}

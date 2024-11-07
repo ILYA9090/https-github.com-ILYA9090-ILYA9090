@@ -1,0 +1,17 @@
+0 verbose cli /home/ilya/.nvm/versions/node/v20.5.0/bin/node /home/ilya/.nvm/versions/node/v20.5.0/bin/npm
+1 info using npm@10.8.0
+2 info using node@v20.5.0
+3 silly config load:file:/home/ilya/.nvm/versions/node/v20.5.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ilya/app-redux/.npmrc
+5 silly config load:file:/home/ilya/.npmrc
+6 silly config load:file:/home/ilya/.nvm/versions/node/v20.5.0/etc/npmrc
+7 verbose title npm config get prefix
+8 verbose argv "config" "--loglevel" "warn" "get" "prefix"
+9 verbose logfile logs-max:10 dir:/home/ilya/.npm/_logs/2024-11-07T08_30_20_379Z-
+10 verbose logfile /home/ilya/.npm/_logs/2024-11-07T08_30_20_379Z-debug-0.log
+11 verbose cwd /home/ilya/app-redux/src
+12 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+13 verbose node v20.5.0
+14 verbose npm  v10.8.0
+15 verbose exit 0
+16 info ok

@@ -1,0 +1,11 @@
+.commentsForm{
+    
+    justify-content: center;
+    display: flex;
+    
+}
+
+.commentsList{
+    justify-content: center;
+    margin: 50px;
+}

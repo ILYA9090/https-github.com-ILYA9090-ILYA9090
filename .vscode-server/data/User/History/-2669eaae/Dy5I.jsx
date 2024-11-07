@@ -1,0 +1,60 @@
+import {
+  useGetPostsQuery,
+  useAddPostsMutation,
+  useRemovePostsMutation,
+} from "../slices/PostsApi";
+import { useState } from "react";
+import "./style.css";
+import React from "react";
+
+const PostsJson = () => {
+  const [text, setText] = useState("");
+
+  const { data = [], isLoading } = useGetPostsQuery();
+  const [addPosts] = useAddPostsMutation();
+  const [remove, { isError }] = useRemovePostsMutation();
+
+  const handleAddPosts = async (e) => {
+    if (text) {
+      e.preventDefault();
+      await addPosts({ title: text });
+      setText("");
+    }
+  };
+
+  const handleDeletePosts = async (id) => {
+    await remove(id);
+  };
+
+  if (isLoading) return <h1>Loading</h1>;
+  //if(isError) return <h1>error</h1>
+  return (
+    <div className="apiQuery">
+      <form onSubmit={handleAddPosts}>
+        <input
+          type="text"
+          placeholder="введите имя"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+        />
+        <button type="submit" value="add">
+          add
+        </button>
+      </form>
+      <div className="postsFormJson">
+        <ol>
+          {data.map((post) => (
+            <li key={post.id}>
+              {post.title}
+              <button type="button" onClick={() => handleDeletePosts(post.id)}>
+                delete
+              </button>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  );
+};
+
+export default PostsJson;

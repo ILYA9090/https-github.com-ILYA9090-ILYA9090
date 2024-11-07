@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    text-align: center;
+    width: 80%;
+
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    border: solid teal;
+    border-radius: 10px;
+    color: red;
+}
+.button {
+    text-align: center;
+    color: bisque;
+}

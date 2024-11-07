@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    text-align: center;
+}
+.form {
+    width: 500px;
+}
+
+.text {
+    color: red;
+}

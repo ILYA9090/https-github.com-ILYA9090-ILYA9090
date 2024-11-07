@@ -1,0 +1,38 @@
+2024-08-28 11:21:23.598 [info] Log level: Info
+2024-08-28 11:21:23.598 [info] Validating found git in: "git"
+2024-08-28 11:21:23.598 [info] Using git "2.34.1" from "git"
+2024-08-28 11:21:23.598 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-28 11:21:23.600 [info] > git rev-parse --git-dir --git-common-dir [41ms]
+2024-08-28 11:21:23.611 [info] Open repository: /home/ilya/react-fundamental-course
+2024-08-28 11:21:23.652 [info] > git rev-parse --show-toplevel [13ms]
+2024-08-28 11:21:23.653 [info] > git config --get commit.template [17ms]
+2024-08-28 11:21:23.667 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-28 11:21:23.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-08-28 11:21:23.678 [warning] ENOENT: no such file or directory, open '/home/ilya/react-fundamental-course/.git/refs/remotes/origin/master'
+2024-08-28 11:21:23.680 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-28 11:21:23.684 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2024-08-28 11:21:23.704 [info] > git status -z -uall [16ms]
+2024-08-28 11:21:23.750 [info] > git merge-base refs/heads/master refs/remotes/origin/master [36ms]
+2024-08-28 11:21:23.758 [info] > git config --get commit.template [14ms]
+2024-08-28 11:21:23.763 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [6ms]
+2024-08-28 11:21:23.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2024-08-28 11:21:23.831 [info] > git diff --name-status -z --diff-filter=ADMR 06ee57871f77897baaad30adf27c093025ad407c...refs/remotes/origin/master [62ms]
+2024-08-28 11:21:23.845 [warning] ENOENT: no such file or directory, open '/home/ilya/react-fundamental-course/.git/refs/remotes/origin/master'
+2024-08-28 11:21:23.847 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-08-28 11:21:23.857 [info] > git status -z -uall [5ms]
+2024-08-28 11:21:24.121 [info] > git check-ignore -v -z --stdin [3ms]
+2024-08-28 11:21:41.564 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-28 11:21:42.262 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:21:43.131 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:21:45.145 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-28 11:21:46.751 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:21:53.071 [info] > git ls-files --stage -- /home/ilya/react-fundamental-course/package-lock.json [3ms]
+2024-08-28 11:21:53.081 [info] > git show --textconv :package-lock.json [18ms]
+2024-08-28 11:21:53.081 [info] > git cat-file -s d66537e341e9e1894e48f4016b63b893211658a4 [5ms]
+2024-08-28 11:21:53.691 [info] > git ls-files --stage -- /home/ilya/react-fundamental-course/yarn.lock [2ms]
+2024-08-28 11:21:53.697 [info] > git show --textconv :yarn.lock [15ms]
+2024-08-28 11:21:53.700 [info] > git cat-file -s c6f75429838e0951edb9f649c576fad15b769aaf [5ms]
+2024-08-28 11:22:20.846 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:22:21.263 [info] > git show --textconv :public/index.html [9ms]
+2024-08-28 11:22:21.265 [info] > git ls-files --stage -- /home/ilya/react-fundamental-course/public/index.html [4ms]
+2024-08-28 11:22:21.273 [info] > git cat-file -s 37b238e2e709cfb68f2649b50aa94106152f55fe [3ms]

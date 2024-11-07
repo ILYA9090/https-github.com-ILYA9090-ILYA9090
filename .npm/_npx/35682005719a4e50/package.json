@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-npx": "^0.1.4"
+  }
+}

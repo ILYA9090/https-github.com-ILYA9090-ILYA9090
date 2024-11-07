@@ -1,0 +1,20 @@
+file:///home/ilya/frontend-project-46/package.json {"mtime":1716221650222,"ctime":1716221485382,"size":500,"etag":"3ce7i2db6g4","orphaned":false,"typeId":""}
+{
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/ILYA9090/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ILYA9090/frontend-project-46/actions)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "code": "bin/gendiff.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

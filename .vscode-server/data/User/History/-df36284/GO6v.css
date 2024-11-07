@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  text-align: center;
+  cursor: pointer;
+}
+.postsItem {
+  text-align: center;
+}
+
+.list {
+  border: 1px solid;
+  margin-top: 5px;
+}
+.Clock {
+  border: 0.5px solid yellowgreen;
+  text-align: center;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  float: left;
+}
+.inputItem {
+  text-align: center;
+}
+.sort {
+  justify-content: center;
+}
+.apiQuery {
+  
+  text-align: center;
+  justify-content: center;
+}
+.postsFormJson {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.dataJson {
+  border: 1px solid;
+  margin-top: 5px;
+}

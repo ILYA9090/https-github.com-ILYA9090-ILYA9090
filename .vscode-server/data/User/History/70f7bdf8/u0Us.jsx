@@ -1,0 +1,21 @@
+import React from "react";
+import { useGetCommentsQuery } from "../../slices/PostsApi";
+import './style.css'
+const Comments = () => {
+  const { data = [] } = useGetCommentsQuery();
+
+  return (
+    <div className="commentsList">
+      <ul>
+        {data.map((com) => (
+          <li className="comments" key={com.id}>
+            <p>{com.text}</p>
+            <p>{com.postId}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Comments;

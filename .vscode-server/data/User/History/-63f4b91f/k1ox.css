@@ -1,0 +1,9 @@
+
+.commentsList {
+    display: flex;
+    justify-content: center;
+}
+.commentsForm{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    text-align: center;
+    width: 500px;
+}
+
+#root {
+    display: flex;
+}
+.form {
+    color: red;
+}
+
+.text {
+    color: red;
+}

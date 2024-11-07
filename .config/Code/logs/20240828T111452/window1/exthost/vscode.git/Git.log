@@ -1,0 +1,26 @@
+2024-08-28 11:14:54.309 [info] Log level: Info
+2024-08-28 11:14:54.309 [info] Validating found git in: "git"
+2024-08-28 11:14:54.309 [info] Using git "2.34.1" from "git"
+2024-08-28 11:14:54.309 [info] > git rev-parse --show-toplevel [13ms]
+2024-08-28 11:14:54.309 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-28 11:14:54.309 [info] Open repository: /home/ilya/react-fundamental-course
+2024-08-28 11:14:54.327 [info] > git rev-parse --show-toplevel [9ms]
+2024-08-28 11:14:54.328 [info] > git config --get commit.template [13ms]
+2024-08-28 11:14:54.358 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-28 11:14:54.367 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-28 11:14:54.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2024-08-28 11:14:54.390 [warning] ENOENT: no such file or directory, open '/home/ilya/react-fundamental-course/.git/refs/remotes/origin/master'
+2024-08-28 11:14:54.393 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-08-28 11:14:54.414 [info] > git status -z -uall [16ms]
+2024-08-28 11:14:54.432 [info] > git merge-base refs/heads/master refs/remotes/origin/master [11ms]
+2024-08-28 11:14:54.441 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [4ms]
+2024-08-28 11:14:54.445 [info] > git config --get commit.template [13ms]
+2024-08-28 11:14:54.450 [info] > git diff --name-status -z --diff-filter=ADMR 06ee57871f77897baaad30adf27c093025ad407c...refs/remotes/origin/master [6ms]
+2024-08-28 11:14:54.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-28 11:14:54.455 [warning] ENOENT: no such file or directory, open '/home/ilya/react-fundamental-course/.git/refs/remotes/origin/master'
+2024-08-28 11:14:54.457 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-08-28 11:14:54.501 [info] > git status -z -uall [40ms]
+2024-08-28 11:14:54.868 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:15:00.496 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:15:02.060 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-28 11:15:03.002 [info] > git check-ignore -v -z --stdin [1ms]
