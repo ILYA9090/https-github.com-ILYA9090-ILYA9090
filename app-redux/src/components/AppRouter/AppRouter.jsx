@@ -8,6 +8,7 @@ import Login from "../Pages/Login";
 import { Route, Navigate, Routes } from "react-router-dom";
 import ErrorPath from "../Pages/ErrorPath";
 import UserContext from "../Context/context";
+import cl from "./route.module.css"
 const AppRouter = () => {
   /*
       route работает так: в ссылке в верху страницы через слеш плюс название то есть path 
@@ -36,10 +37,12 @@ const AppRouter = () => {
       <Route path="*" element={<Navigate to="/error" replace />} />
     </Routes>
   ) : (
+    <div className={cl.login}>
     <Routes>
       <Route path="/Login" element={<Login />} />
       <Route path="*" element={<Navigate to="/Login" replace />} />
     </Routes>
+    </div>
   );
 };
 
